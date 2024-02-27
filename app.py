@@ -16,5 +16,4 @@ def sum_even():
 
     for digit in n:
         result += int(digit)
-    # return result as json
     return jsonify(quersumme=result)
